@@ -1,0 +1,283 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#bdy{
+    background-image: url(/Flappy-Bird/Main\ Page.png);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#head{
+    color: white;
+    font-size: 37px;  
+    margin-top: -10px;
+    margin-left: -40px;
+} 
+.feat{
+    margin-top:-20px ;
+    margin-left: -40px;
+}
+.nav{
+    display: flex;
+}
+.logo{
+    margin-left: 750px;
+    margin-top: -100px;
+}
+.instruction{
+    width: 250px;
+    border: 4px solid #8E8FFF;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 80px;
+    margin-left: 840px;
+    padding-left: 13px;
+    padding-right: 13px;
+    background-color: #ACADFF;
+}
+.instruction:hover{
+    background-color: #8E8FFF;
+}
+.intro{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 35px;
+}
+body{
+    background-image: url(/Flappy-Bird/Instruction\ page.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed    ;
+    background-position: center;
+}
+.body1{
+    display: flex;
+    overflow: hidden;
+
+}
+p{
+    width: 430px;
+    margin-left: -350px;
+    margin-top: 159px;
+    line-height: 30px;
+    font-size: 25px;
+}
+
+#name, #nick-name{
+    font-size: 15px;
+    height: 35px;
+    border: 2px solid #7A7575;
+    width: 230px;
+    border-radius: 20px;
+    margin-left: 183px;
+    text-align: center;
+}
+#name{
+    margin-top: 70px;
+    background-color: #A3DCF9;
+}
+#nick-name{
+    margin-top: 40px;
+    background-color: #C4E7FA;
+}
+.form{
+    flex-direction: column;
+    display: flex;
+}
+.button{
+    margin-left: 10px;
+}
+.ins{
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    margin-left: 170px;
+    margin-top: 20px;
+    color: white;
+    -webkit-text-stroke: 1px rgb(152, 116, 122);
+}
+.play {
+    cursor: pointer;
+    margin-top: 70px;
+    align-items: center;
+    font-size: 27px;
+    text-align: center;
+    margin-left: 200px;
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    background-color: #DDF0FE;
+    border: 2px solid #C0E4FF;
+    font-weight: 500;
+    display: flex;
+}
+.play:hover{
+    background-color: #C0E4FF;
+}
+#play-btn{
+    margin-left: 50px;
+}
+.about{
+    color: white;
+    line-height: 20px;
+    width: 400px;
+    margin-top: 390px;
+    margin-left: -330px;
+
+}
+.abt{
+    font-size: 25px;
+    margin-left: 50px;
+}
+.abt-p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.gameoverlogo{
+    margin-left: 40%;
+}
+.scoreboard{
+    color: white;
+    font-size: 40px;
+    margin-left: 40%;
+}
+.phrases{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: #46CFF3;
+}
+.score{
+    margin-left: 5%;
+}
+.timer{
+    margin-right: 10%;
+}
+.body3{
+    background-image: url(/Flappy-Bird/desktop-wallpaper-flappy-bird-backgrounds-flappy-bird\ -\ Copy.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.gameover{
+    background-image: url(game\ page.jpeg);
+}
+.return{
+    display: flex;
+    align-items:center ;
+    text-align: center; 
+}
+.play_again{
+    color: black;
+    margin-left: 30%;
+    background-color: #E1E1FD;
+    border: 2px solid #C4C4FA;
+    height: 50px;
+    width: 200px;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 27px;
+    align-items: center;
+    display: flex;
+}
+.home{
+    color: black;
+    margin-left: 8%;
+    background-color: #E1E1FD;
+    border: 2px solid #C4C4FA;
+    height: 50px;
+    width: 200px;
+    justify-content: center;    
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 27px;
+    align-items: center;
+    display: flex;
+}
+.bird{
+    display: flex;
+
+    height: 57px;
+    width: 78px;
+    padding: 0px;
+    margin: 0;
+    background-image: url("/Flappy-Bird/output-onlinegiftools.gif");
+    background-position: -60px;
+    background-size: 200px;
+    /* align-items: center; */
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 100;
+
+}
+#game{
+    width: 100%;
+    border: 1px solid black;
+    height: 525px;
+    margin: auto;
+    overflow: hidden;   
+
+}
+.tower{
+    width: 50px;
+    height: 300px;
+    background: radial-gradient(lightgreen, 50%, green); 
+    position: absolute;
+    border: 2px solid black;
+    z-index: -100;
+    border: 2px solid black;
+
+}
+.topTower{
+    width: 50px;
+    height: 300px;
+    background: radial-gradient(lightgreen, 50%, green); 
+    position: absolute;
+    border: 2px solid black;
+    z-index: -1;
+    border: 2px solid black;
+
+}
+
+/* @media only screen and (max-width: 1080px){
+    #head{
+        font-size: 20px;
+        width: 700px;
+    }
+    #bdy{
+        background-image: url(/Flappy-Bird/Android\ Large\ -\ 1.png);}
+
+    .feat{
+        margin-left: -10px;
+    }
+    .logo{
+        width: 500px;
+        margin-left: 500px;
+        margin-top: 10px;
+        border: 2px solid black;
+
+    } 
+    .instruction{
+        margin-left: 570px;
+        margin-top: 35%;
+        height: 100px;
+        width: 300px;
+        border-radius: 50px;
+    } 
+} */
+
